@@ -25,13 +25,14 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
 ### Clone the Repository
 
 1. **Clone the repository to your local machine:**
+Go to terminal and run:
 
     ```bash
     git clone https://github.com/kameshcodes/cars-number-plate-recognition-project.git
     ```
     
     ```bash
-    cd car-number-plate-detection
+    cd cars-number-plate-recognition-project
     ```
 
 ### Project Setup
