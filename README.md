@@ -67,7 +67,7 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
 
     ```bash
     pip install ipykernel 
-    python -m ipykernel install --user --name=venv_name --display-name "venv_name"
+    python -m ipykernel install --user --name=venv_name --display-name venv_name
     ```
 
 5. **Add Kaggle API:**
