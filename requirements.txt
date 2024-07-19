@@ -1,0 +1,9 @@
+numpy 
+pandas 
+matplotlib
+plotly
+opencv-python
+
+logging
+kaggle
+python-dotenv
