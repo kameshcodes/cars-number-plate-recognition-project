@@ -4,6 +4,11 @@
 
 This project aims to develop a system to detect and read vehicle number plates from images. The system uses Object Detection techniques to locate the number plate in a picture and Optical Character Recognition (OCR) to convert the plate’s characters into readable text.
 
+The application flow of the project is illustrated below:
+
+![Application Flow](imgs/application-flow.png)
+
+
 ## Technologies Used
 
 - **Deep Learning Framework**: PyTorch
