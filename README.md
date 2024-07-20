@@ -8,7 +8,6 @@ The application flow of the project is illustrated below:
 
 ![Application Flow](imgs/application-flow.png)
 
-
 ## Technologies Used
 
 - **Deep Learning Framework**: PyTorch
@@ -25,34 +24,47 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
 ### Clone the Repository
 
 1. **Clone the repository to your local machine:**
-Go to terminal and run:
+Go to terminal and change directory where you want to clone project and then run:
 
-    ```bash
-    git clone https://github.com/kameshcodes/cars-number-plate-recognition-project.git
-    ```
-    
-    ```bash
-    cd cars-number-plate-recognition-project
-    ```
+```bash
+git clone https://github.com/kameshcodes/cars-number-plate-recognition-project.git
+
+```
+
+Now, go inside the project directory in the IDE terminal using the following command
+
+```bash
+cd cars-number-plate-recognition-project
+```
+
+**Optional Step:** If you are using VS Code, run:
+
+```bash
+code .
+```
+
+This will open the project inside the visual studio code directly.
 
 ### Project Setup
+
+Now Inside VS Code terminal, follow the instructions given below to setup the project dependencies and requriments:
 
 1. **Create a Virtual Environment:**
 
     ```bash
-    python -m venv venv_name
+    python -m venv venv
     ```
 
    - **On Windows:**
 
     ```bash
-    venv_name\Scripts\activate
+    venv\Scripts\activate
     ```
 
    - **On macOS and Linux:**
 
     ```bash
-    source venv_name/bin/activate
+    source venv/bin/activate
     ```
 
 2. **Upgrade pip to the latest version:**
@@ -69,9 +81,16 @@ Go to terminal and run:
 
 4. **Connect Virtual Environment to Jupyter Kernel:**
 
+    - **Install ipykernel**
+
     ```bash
     pip install ipykernel 
-    python -m ipykernel install --user --name=venv_name --display-name venv_name
+    ```
+
+    - **Connect venv to Jupyter Kernel**
+
+    ```bash
+    python -m ipykernel install --user --name=venv --display-name venv
     ```
 
 5. **Add Kaggle API:**
@@ -81,13 +100,13 @@ Go to terminal and run:
    - **Obtain Kaggle API Key:**
      - Log in to your Kaggle account.
      - Go to your [Kaggle Account Settings](https://www.kaggle.com/settings).
-     - Scroll down to the **API** section and click **Create New API Token**. This will download a `.kaggle` folder containing the `kaggle.json` file.
-     - Open the `kaggle.json` file inside `.kaggle` directory and retrieve:
+     - Scroll down to the **API** section and click **Create New API Token**. This will download a `.kaggle` folder containing the `kaggle.json` file or `kaggle.json` directly.
+     - Open the `kaggle.json` file and retirive:
        - `your_username` - your Kaggle username
        - `your_api_key` - your Kaggle API key
 
    - **Add Credentials to `.env` File:**
-     1. Create a new `.env` file inside project directory.
+     1. Create a new file named `.env` inside project folder
      2. Add the following lines to the `.env` file:
 
         ```plaintext
@@ -95,4 +114,4 @@ Go to terminal and run:
         KAGGLE_KEY=your_api_key
         ```
 
-   **Note:** Ensure that the `.env` file is not included in version control. Add it to `.gitignore` to keep your credentials secure.
+    You will get your_username and your_api_key from the `kaggle.json` file
