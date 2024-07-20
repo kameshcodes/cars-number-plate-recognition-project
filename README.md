@@ -98,7 +98,7 @@ Now Inside VS Code terminal, follow the instructions given below to setup the pr
 
 5. **Add Kaggle API:**
 
-   To access Kaggle datasets from kaggle for downloading, you need a Kaggle API key. Follow these steps:
+   To access Kaggle datasets from kaggle for downloading to your local machine, you need a Kaggle API key. Follow these steps:
 
    - **Obtain Kaggle API Key:**
      - Go to your [Kaggle Account Settings](https://www.kaggle.com/settings) (Login if required).
