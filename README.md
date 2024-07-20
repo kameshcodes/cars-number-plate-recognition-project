@@ -96,12 +96,12 @@ Now Inside VS Code terminal, follow the instructions given below to setup the pr
     python -m ipykernel install --user --name=venv --display-name venv
     ```
 
-5. **Add Kaggle API:**
+5. **Configure the Kaggle API for your OS:**
 
-   To access Kaggle datasets from kaggle for downloading to your local machine, you need a Kaggle API key. Follow these steps:
+   To download Kaggle datasets to your local machine, you'll need a Kaggle API key. Here’s how to get it:
 
    - **Obtain Kaggle API Key:**
-     - Go to your [Kaggle Account Settings](https://www.kaggle.com/settings) (Login if required).
+     - Go to your [Kaggle Account Settings](https://www.kaggle.com/settings) (Kaggle will ask you to Login/Create account if you haven't already).
      - Scroll down to the **API** section and click **Create New API Token**. This will download a `.kaggle` folder containing the `kaggle.json` file or `kaggle.json` directly.
      - Open the `kaggle.json` file and retirive:
        - `your_username` - your Kaggle username
