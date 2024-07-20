@@ -7,3 +7,5 @@ opencv-python
 logging
 kaggle
 python-dotenv
+tensorflow
+scikit-learn
