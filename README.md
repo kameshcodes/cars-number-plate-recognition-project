@@ -23,26 +23,26 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
 
 ### Clone the Repository
 
-1. **Clone the repository to your local machine:**
+**Clone the repository to your local machine:**
 
-Go to terminal and change directory where you want to clone project and then run:
+- Go to terminal and change directory where you want to clone project and then run:
 
-```bash
-git clone https://github.com/kameshcodes/cars-number-plate-recognition-project.git
+    ```bash
+    git clone https://github.com/kameshcodes/cars-number-plate-recognition-project.git
 
-```
+    ```
 
-Now, go inside the project directory in the IDE terminal using the following command
+    Now, go inside the project directory in the IDE terminal using the following command
 
-```bash
-cd cars-number-plate-recognition-project
-```
+    ```bash
+    cd cars-number-plate-recognition-project
+    ```
 
-**Optional Step:** If you are using VS Code, run:
+    **Optional Step:** If you are using VS Code, run:
 
-```bash
-code .
-```
+    ```bash
+    code .
+    ```
 
 This will open the project inside the visual studio code directly.
 
