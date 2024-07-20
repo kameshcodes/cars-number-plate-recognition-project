@@ -24,6 +24,7 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
 ### Clone the Repository
 
 1. **Clone the repository to your local machine:**
+
 Go to terminal and change directory where you want to clone project and then run:
 
 ```bash
