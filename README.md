@@ -44,7 +44,7 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
     code .
     ```
 
-This will open the project inside the visual studio code directly otherwise simply open the project using open folder in your prefered IDE.
+    This will open the project inside the visual studio code directly otherwise simply open the project using open folder in your prefered IDE.
 
 ### Project Setup
 
