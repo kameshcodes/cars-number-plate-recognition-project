@@ -116,4 +116,4 @@ Now Inside VS Code terminal, follow the instructions given below to setup the pr
         KAGGLE_KEY=your_api_key
         ```
 
-    You will get your_username and your_api_key from the `kaggle.json` file
+    **Note:** You will get your_username and your_api_key from the `kaggle.json` file
