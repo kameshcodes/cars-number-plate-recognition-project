@@ -38,7 +38,7 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
     cd cars-number-plate-recognition-project
     ```
 
-    **Optional Step:** If you are using VS Code, run:
+- **Optional Step:** If you are using VS Code, run:
 
     ```bash
     code .
@@ -56,17 +56,19 @@ Now Inside VS Code terminal, follow the instructions given below to setup the pr
     python -m venv venv
     ```
 
-   - **On Windows:**
+    - **Activate the virtual environment**
 
-    ```bash
-    venv\Scripts\activate
-    ```
+        - **On Windows:**
 
-   - **On macOS and Linux:**
+            ```bash
+            venv\Scripts\activate
+            ```
 
-    ```bash
-    source venv/bin/activate
-    ```
+        - **On macOS and Linux:**
+
+            ```bash
+            source venv/bin/activate
+            ```
 
 2. **Upgrade pip to the latest version:**
 
