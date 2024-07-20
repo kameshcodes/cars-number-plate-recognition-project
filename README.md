@@ -32,7 +32,7 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
 
     ```
 
-    Now, go inside the project directory in the IDE terminal using the following command
+- Now, go inside the project directory in the IDE terminal using the following command
 
     ```bash
     cd cars-number-plate-recognition-project
@@ -44,7 +44,7 @@ Ensure you have Python 3 installed on your system. If not, you can download it f
     code .
     ```
 
-This will open the project inside the visual studio code directly.
+This will open the project inside the visual studio code directly otherwise simply open the project using open folder in your prefered IDE.
 
 ### Project Setup
 
