@@ -98,9 +98,8 @@ Now Inside VS Code terminal, follow the instructions given below to setup the pr
 
    To access Kaggle datasets from kaggle for downloading, you need a Kaggle API key. Follow these steps:
 
-   - **Obtain Kaggle API Key:**
-     - Log in to your Kaggle account.
-     - Go to your [Kaggle Account Settings](https://www.kaggle.com/settings).
+   - **Obtain Kaggle API Key:
+     - Go to your [Kaggle Account Settings](https://www.kaggle.com/settings) (Login if required).
      - Scroll down to the **API** section and click **Create New API Token**. This will download a `.kaggle` folder containing the `kaggle.json` file or `kaggle.json` directly.
      - Open the `kaggle.json` file and retirive:
        - `your_username` - your Kaggle username
